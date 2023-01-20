@@ -18,6 +18,25 @@ nav{
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background: #ddd;
+    color: black;
 }
 .logo{
     color: white;
@@ -186,7 +205,7 @@ button:hover{
     background: #191919;
     border-radius: 20px;
     margin: 15px;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
     text-align: center;
 }
